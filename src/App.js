@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import SpotifyWebApi from "spotify-web-api-js";
+import SpotifyWebApi from "spotify-web-api-js";//created by using spotify developer tools
 import { useStateValue } from "./StateProvider";
 import Player from "./Player";
 import { getTokenFromResponse } from "./spotify";
